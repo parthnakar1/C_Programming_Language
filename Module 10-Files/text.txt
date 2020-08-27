@@ -1,0 +1,4 @@
+New file created.File appended.
+
+string input output completed.
+closing the file now.
