@@ -18,7 +18,7 @@ void swap_reference(int *a,int *b)
     int t;
     t = *a;
     *a = *b;
-    *b = *a;
+    *b = temp;
 }
 
 int main()
@@ -34,5 +34,5 @@ int main()
 }
 /* Expected output: Numbers 1 and 2 before swapping: 10 and 15
                     Numbers 1 and 2 after swap by value: 10 and 15
-                    Numbers 1 and 2 after swap by reference: 15 and 15
+                    Numbers 1 and 2 after swap by reference: 15 and 10
 */
